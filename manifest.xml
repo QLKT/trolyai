@@ -6,16 +6,17 @@
            xsi:type="TaskPaneApp">
   
   <Id>a1b2c3d4-e5f6-7890-abcd-ef1234567890</Id>
-  <Version>1.0.0.3</Version>
+  <Version>1.0.0.4</Version>
   <ProviderName>AI QLKT</ProviderName>
   <DefaultLocale>vi-VN</DefaultLocale>
   <DisplayName DefaultValue="Trợ lý AI SISP"/>
   <Description DefaultValue="Trợ lý AI cho Word, Excel, PowerPoint"/>
-  <IconUrl DefaultValue="https://qlkt.github.io/trolyai/dist/assets/logo-filled.png"/>
-  <HighResolutionIconUrl DefaultValue="https://qlkt.github.io/trolyai/dist/assets/logo-filled.png"/>
+  <IconUrl DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/logo-filled.png"/>
+  <HighResolutionIconUrl DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/logo-filled.png"/>
   <SupportUrl DefaultValue="https://github.com/QLKT/trolyai"/>
   
   <AppDomains>
+    <AppDomain>https://raw.githubusercontent.com</AppDomain>
     <AppDomain>https://qlkt.github.io</AppDomain>
     <AppDomain>http://localhost:11434</AppDomain>
     <AppDomain>http://localhost:1234</AppDomain>
@@ -30,7 +31,7 @@
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://qlkt.github.io/trolyai/dist/taskpane.html"/>
+    <SourceLocation DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/taskpane.html"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
@@ -163,14 +164,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-32.png"/>
-        <bt:Image id="Icon.64x64" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-64.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/icon-32.png"/>
+        <bt:Image id="Icon.64x64" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/icon-64.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://qlkt.github.io/trolyai/dist/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://qlkt.github.io/trolyai/dist/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://raw.githubusercontent.com/QLKT/trolyai/main/dist/taskpane.html"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://github.com/QLKT/trolyai"/>
       </bt:Urls>
       <bt:ShortStrings>
