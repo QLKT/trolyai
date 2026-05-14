@@ -17,10 +17,11 @@
 
   <AppDomains>
     <AppDomain>https://qlkt.github.io</AppDomain>
-    <AppDomain>https://localhost:11434</AppDomain>
-    <AppDomain>https://localhost:1234</AppDomain>
-    <AppDomain>https://127.0.0.1:11434</AppDomain>
-    <AppDomain>https://127.0.0.1:1234</AppDomain>
+    <AppDomain>https://aperiodically-flintier-adrien.ngrok-free.dev</AppDomain>
+    <AppDomain>http://localhost:11434</AppDomain>
+    <AppDomain>http://localhost:1234</AppDomain>
+    <AppDomain>http://127.0.0.1:11434</AppDomain>
+    <AppDomain>http://127.0.0.1:1234</AppDomain>
   </AppDomains>
 
   <Hosts>
