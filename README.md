@@ -9,3 +9,5 @@ Trợ lý AI cho Office viết bởi P.QLKT Viện QHXDMN năm 2026
 - Mở Words, hoặc Excel, hoặc PPT ->Insert/My addins/Shared folder->chọn Trợ lý AI-Add-> Chạy Home/Mở AI->Chọn Ollama (local) hoặc LMstudio (local) để sử dụng AI
 - Chạy UNINSTALL.bat để xóa cài đặt
 - Nếu dùng Ollama thì chạy SETUP-OLLAMA-CORS.bat
+# Cấu hình Trust Center 
+Nếu bạn đang phát triển Add-in (localhost) và bị chặn, bạn có thể tạm thời hạ thấp mức bảo mật.Mở Word, vào File > Options > Trust Center > Trust Center Settings....Chọn mục Add-ins.Bỏ tích chọn "Require Application Add-ins to be signed by Trusted Publisher" (Yêu cầu các Add-in ứng dụng được ký bởi nhà phát hành đáng tin cậy).
