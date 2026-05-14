@@ -11,8 +11,8 @@
   <DefaultLocale>vi-VN</DefaultLocale>
   <DisplayName DefaultValue="Trợ lý AI SISP"/>
   <Description DefaultValue="Trợ lý AI cho Word, Excel, PowerPoint"/>
-  <IconUrl DefaultValue="https://qlkt.github.io/trolyai/dist/assets/logo-filled.png"/>
-  <HighResolutionIconUrl DefaultValue="https://qlkt.github.io/trolyai/dist/assets/logo-filled.png"/>
+  <IconUrl DefaultValue="https://qlkt.github.io/trolyai/assets/logo-filled.png"/>
+  <HighResolutionIconUrl DefaultValue="https://qlkt.github.io/trolyai/assets/logo-filled.png"/>
   <SupportUrl DefaultValue="https://qlkt.github.io/trolyai"/>
 
   <AppDomains>
@@ -30,7 +30,7 @@
   </Hosts>
 
   <DefaultSettings>
-    <SourceLocation DefaultValue="https://qlkt.github.io/trolyai/dist/taskpane.html"/>
+    <SourceLocation DefaultValue="https://qlkt.github.io/trolyai/taskpane.html"/>
   </DefaultSettings>
 
   <Permissions>ReadWriteDocument</Permissions>
@@ -163,14 +163,14 @@
     </Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16x16" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-16.png"/>
-        <bt:Image id="Icon.32x32" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-32.png"/>
-        <bt:Image id="Icon.64x64" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-64.png"/>
-        <bt:Image id="Icon.80x80" DefaultValue="https://qlkt.github.io/trolyai/dist/assets/icon-80.png"/>
+        <bt:Image id="Icon.16x16" DefaultValue="https://qlkt.github.io/trolyai/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://qlkt.github.io/trolyai/assets/icon-32.png"/>
+        <bt:Image id="Icon.64x64" DefaultValue="https://qlkt.github.io/trolyai/assets/icon-64.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://qlkt.github.io/trolyai/assets/icon-80.png"/>
       </bt:Images>
       <bt:Urls>
-        <bt:Url id="Commands.Url" DefaultValue="https://qlkt.github.io/trolyai/dist/commands.html"/>
-        <bt:Url id="Taskpane.Url" DefaultValue="https://qlkt.github.io/trolyai/dist/taskpane.html"/>
+        <bt:Url id="Commands.Url" DefaultValue="https://qlkt.github.io/trolyai/commands.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://qlkt.github.io/trolyai/taskpane.html"/>
         <bt:Url id="GetStarted.LearnMoreUrl" DefaultValue="https://qlkt.github.io/trolyai"/>
       </bt:Urls>
       <bt:ShortStrings>
